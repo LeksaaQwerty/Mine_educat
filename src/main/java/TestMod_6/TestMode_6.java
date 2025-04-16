@@ -1,5 +1,7 @@
 package TestMod_6;
 
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -8,18 +10,21 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-@Mod(modid = "am", name = "Aducation mode,", version = "1.0")
+@Mod(modid = "am", name = "Education Mode,", version = "1.0")
 public class TestMode_6 {
 	
 	public static Item itemTable;
+	public static Block blockYAponskiFlag;
 	
 	 @EventHandler
 	  public void preInit(FMLPreInitializationEvent event) {
 	    itemTable = new ItemTable().setUnlocalizedName("ItemTables").setTextureName("tm:itemtable");
 	  
+	    blockYAponskiFlag = new BlockYAponskiFlag(Material.cloth).setBlockName("BlockFlag").setBlockTextureName("am:whiteflag");
 	    
 	    GameRegistry.registerItem(itemTable, itemTable.getUnlocalizedName().substring(5));
-	    GameRegistry.registerItem(itemStul, itemStul.getUnlocalizedName().substring(5));
+	    
+	    GameRegistry.registerBlock(blockYAponskiFlag, blockYAponskiFlag.getUnlocalizedName().substring(5));
 	  }
 	  
 	  @EventHandler
