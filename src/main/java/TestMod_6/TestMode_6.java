@@ -10,7 +10,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-@Mod(modid = "am", name = "Education Mode,", version = "1.0")
+@Mod(modid = "em", name = "Education Mode,", version = "1.0")
 public class TestMode_6 {
 	
 	public static Item itemTable;
@@ -18,7 +18,7 @@ public class TestMode_6 {
 	
 	 @EventHandler
 	  public void preInit(FMLPreInitializationEvent event) {
-	    itemTable = new ItemTable().setUnlocalizedName("ItemTables").setTextureName("tm:itemtable");
+	    itemTable = new ItemTable().setUnlocalizedName("ItemTables");
 	  
 	    blockYAponskiFlag = new BlockYAponskiFlag(Material.cloth).setBlockName("BlockFlag").setBlockTextureName("am:whiteflag");
 	    

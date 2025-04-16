@@ -16,12 +16,13 @@ public class BlockYAponskiFlag extends BlockEducationMod {
 
 	@Override
 	public void updateTick(World world, int x, int y, int z, Random random){	// добавление звука который звучит рандомно когда
+		//if(random.nextInt(10)==0)
 		world.playSoundEffect(x, y, z, "mob.enderdragon.wings", 1.0F, random.nextFloat() + 0.5F);
 		}
 	
 	@Override
 	public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int side, float hitX, float hitY, float hitZ){
-		world.playSoundEffect(x, y, z, "am:flagflap", 1.0F, player.getRNG().nextFloat() + 0.5F); // добавление звука блоку 
+		world.playSoundEffect(x, y, z, "am:FlagFlap", 1.0F, player.getRNG().nextFloat() + 0.5F); // добавление звука блоку 
 		return true;	
 	}
 }

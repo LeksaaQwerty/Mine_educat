@@ -1,52 +1,31 @@
-[20:38:44] [main/INFO]: Setting user: Player481
-[20:38:44] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:38:50] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Education Mode,
-[20:38:51] [Sound Library Loader/INFO]: Sound engine started
-[20:38:52] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[20:38:52] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[20:38:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Education Mode,
-[20:38:52] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:38:52] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:38:53] [Sound Library Loader/INFO]: Sound engine started
-[20:38:56] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[20:38:56] [Server thread/INFO]: Generating keypair
-[20:38:56] [Server thread/INFO]: Preparing start region for level 0
-[20:38:57] [Server thread/INFO]: Changing view distance to 12, from 10
-[20:38:57] [Server thread/INFO]: Player481[local:E:4357c232] logged in with entity id 316 at (151.67887425056958, 80.23652419121657, 268.9842388544758)
-[20:38:57] [Server thread/INFO]: Player481 joined the game
-[20:38:59] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:38:59] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:00] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:01] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:02] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:02] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:02] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:02] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:03] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:03] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:04] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:04] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:04] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:05] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:05] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:05] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:05] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:05] [Server thread/INFO]: Saving and pausing game...
-[20:39:05] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[20:39:05] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[20:39:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[20:39:08] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:08] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:08] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:08] [Client thread/WARN]: Unable to play unknown soundEvent: am:flagflap
-[20:39:08] [Server thread/INFO]: Saving and pausing game...
-[20:39:08] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[20:39:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[20:39:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[20:39:09] [Server thread/INFO]: Stopping server
-[20:39:09] [Server thread/INFO]: Saving players
-[20:39:09] [Server thread/INFO]: Saving worlds
-[20:39:09] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[20:39:09] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[20:39:09] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[20:39:16] [Client thread/INFO]: Stopping!
+[20:56:43] [main/INFO]: Setting user: Player312
+[20:56:44] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:56:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Education Mode,
+[20:56:49] [Sound Library Loader/INFO]: Sound engine started
+[20:56:50] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[20:56:50] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[20:56:50] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Education Mode,
+[20:56:50] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:56:50] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:56:51] [Sound Library Loader/INFO]: Sound engine started
+[20:56:53] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[20:56:53] [Server thread/INFO]: Generating keypair
+[20:56:53] [Server thread/INFO]: Preparing start region for level 0
+[20:56:54] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:56:54] [Server thread/INFO]: Player312[local:E:2f7a18b5] logged in with entity id 318 at (142.91887552420602, 70.0, 274.44743028607166)
+[20:56:54] [Server thread/INFO]: Player312 joined the game
+[20:56:58] [Server thread/INFO]: Saving and pausing game...
+[20:56:58] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[20:56:58] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:56:58] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[20:57:15] [Server thread/INFO]: Saving and pausing game...
+[20:57:15] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[20:57:15] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:57:15] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[20:57:15] [Server thread/INFO]: Stopping server
+[20:57:15] [Server thread/INFO]: Saving players
+[20:57:15] [Server thread/INFO]: Saving worlds
+[20:57:15] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[20:57:15] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[20:57:15] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[20:57:17] [Client thread/INFO]: Stopping!
