@@ -19,7 +19,6 @@ public class TestMode_6 {
 	  
 	    
 	    GameRegistry.registerItem(itemTable, itemTable.getUnlocalizedName().substring(5));
-	    //GameRegistry.registerItem(itemStul, itemStul.getUnlocalizedName().substring(5));
 	  }
 	  
 	  @EventHandler
