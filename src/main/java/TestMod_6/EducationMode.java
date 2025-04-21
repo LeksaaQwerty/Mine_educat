@@ -10,11 +10,14 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-@Mod(modid = "em", name = "Education Mode,", version = "1.0")
-public class TestMode_6 {
+@Mod(modid = "EM", name = "Education Mode,", version = "1.0")
+public class EducationMode {
 	
 	public static Item itemTable;
 	public static Block blockYAponskiFlag;
+	
+	@Mod.Instance("EducationMode")
+	public static EducationMode instance; // создали экземпляр нашего мода как я понял , а вот зачем  пока не понял
 	
 	 @EventHandler
 	  public void preInit(FMLPreInitializationEvent event) {
