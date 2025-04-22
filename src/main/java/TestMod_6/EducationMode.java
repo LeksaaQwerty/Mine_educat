@@ -1,20 +1,27 @@
 package TestMod_6;
 
+import configuration.ConfigurationHandler;
+import proxy.IProxy;
+import reference.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-@Mod(modid = "EM", name = "Education Mode,", version = "1.0")
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION) // а вот с референс 
 public class EducationMode {
 	
 	public static Item itemTable;
 	public static Block blockYAponskiFlag;
+	
+	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
+    public static IProxy proxy; // разберись что это и зачем 
 	
 	@Mod.Instance("EducationMode")
 	public static EducationMode instance; // создали экземпляр нашего мода как я понял , а вот зачем  пока не понял
@@ -26,8 +33,9 @@ public class EducationMode {
 	    blockYAponskiFlag = new BlockYAponskiFlag(Material.cloth).setBlockName("BlockFlag").setBlockTextureName("am:whiteflag");
 	    
 	    GameRegistry.registerItem(itemTable, itemTable.getUnlocalizedName().substring(5));
-	    
 	    GameRegistry.registerBlock(blockYAponskiFlag, blockYAponskiFlag.getUnlocalizedName().substring(5));
+	    
+	    ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 	  }
 	  
 	  @EventHandler
