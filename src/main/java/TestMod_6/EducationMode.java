@@ -7,6 +7,7 @@ import utility.LogHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.SidedProxy;
@@ -37,6 +38,7 @@ public class EducationMode {
 	    GameRegistry.registerBlock(blockYAponskiFlag, blockYAponskiFlag.getUnlocalizedName().substring(5));
 	    
 	    ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+	    FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 	    LogHelper.info("Pre initialization Complete!");
 	  }
 	  
