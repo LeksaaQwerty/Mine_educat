@@ -1,5 +1,6 @@
 package TestMod_6;
 
+import init.ModItems;
 import handler.ConfigurationHandler;
 import proxy.IProxy;
 import reference.Reference;
@@ -40,6 +41,8 @@ public class EducationMode {
 	    ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 	    FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 	    LogHelper.info("Pre initialization Complete!");
+	    
+	    ModItems.init();
 	  }
 	  
 	  @EventHandler

@@ -1,4 +1,5 @@
 item.ItemTables.name=Table
 
 tile.BlockFlag.name=White Flag
-`
+
+item.am:mapleLeaf.name=Maple
