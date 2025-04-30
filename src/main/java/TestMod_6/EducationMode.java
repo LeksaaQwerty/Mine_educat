@@ -1,5 +1,6 @@
 package TestMod_6;
 
+import init.ModBlocks;
 import init.ModItems;
 import handler.ConfigurationHandler;
 import proxy.IProxy;
@@ -43,6 +44,8 @@ public class EducationMode {
 	    LogHelper.info("Pre initialization Complete!");
 	    
 	    ModItems.init();
+	    
+	    ModBlocks.init();
 	  }
 	  
 	  @EventHandler
