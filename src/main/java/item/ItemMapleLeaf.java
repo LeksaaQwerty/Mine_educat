@@ -1,5 +1,7 @@
 package item;
 
+import creativetab.CreativeTabLMRB;
+
 public class ItemMapleLeaf extends ItemLMRB{
 	
 	public ItemMapleLeaf()

@@ -2,6 +2,7 @@ package TestMod_6;
 
 import init.ModBlocks;
 import init.ModItems;
+import init.Recipes;
 import handler.ConfigurationHandler;
 import proxy.IProxy;
 import reference.Reference;
@@ -9,6 +10,7 @@ import utility.LogHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
+import net.minecraftforge.oredict.OreDictionary;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -50,11 +52,18 @@ public class EducationMode {
 	  
 	  @EventHandler
 	  public void init(FMLInitializationEvent event){
+		  Recipes.init();
 		  LogHelper.info("Initialization Complete!");
 	  }
 	  
 	  @EventHandler
 	  public void postInit(FMLPostInitializationEvent event){
 		  LogHelper.info("Post initialization Complete!");
+		  
+//		  for(String oreName : OreDictionary.getOreNames())
+//		  {
+//			 LogHelper.info(oreName);
+//			 OreDictionary.getOres("StickWood");  	Поиск чего-то там ..
+//		  }
 	  }
 }

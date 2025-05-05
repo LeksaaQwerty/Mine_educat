@@ -2,6 +2,7 @@ package item;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import creativetab.CreativeTabLMRB;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -11,6 +12,7 @@ public class ItemLMRB extends Item{
 
 	public ItemLMRB(){
 		super();
+		this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
 	}
 	
 	@Override

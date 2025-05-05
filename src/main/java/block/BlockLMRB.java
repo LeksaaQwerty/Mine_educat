@@ -2,6 +2,7 @@ package block;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import creativetab.CreativeTabLMRB;
 import reference.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -13,6 +14,7 @@ public class BlockLMRB extends Block {
 	public BlockLMRB(Material material)
 	{
 		super(material);
+		this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
 	}
 
 	public BlockLMRB()

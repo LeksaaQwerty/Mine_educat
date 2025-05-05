@@ -4,3 +4,5 @@ tile.BlockFlag.name=White Flag
 
 item.am:mapleLeaf.name=Maple
 tile.am:flag.name=Canadian Flag
+
+itemGroup.am=Ler's Mod Reboot

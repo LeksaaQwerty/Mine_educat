@@ -1,5 +1,7 @@
 package block;
 
+import creativetab.CreativeTabLMRB;
+
 public class BlockFlag extends BlockLMRB {
 
 	public BlockFlag()
