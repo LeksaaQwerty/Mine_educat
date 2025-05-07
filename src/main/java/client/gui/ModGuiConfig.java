@@ -1,4 +1,4 @@
-package gui;
+package client.gui;
 
 import reference.Reference;
 import net.minecraft.client.gui.GuiScreen;

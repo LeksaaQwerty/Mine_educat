@@ -1,8 +1,18 @@
+# Keys
+keys.eductionmode.category=Education Mod
+keys.eductionmode.charge=Charge
+keys.eductionmode.release=Release
+
+
+# Creative Tabs
+itemGroup.am=Ler's Mod Reboot
+
+# Items
 item.ItemTables.name=Table
 
-tile.BlockFlag.name=White Flag
-
 item.am:mapleLeaf.name=Maple
+
+# Blocks
 tile.am:flag.name=Canadian Flag
 
-itemGroup.am=Ler's Mod Reboot
+tile.BlockFlag.name=White Flag

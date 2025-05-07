@@ -1,5 +1,6 @@
 package TestMod_6;
 
+import client.handler.KeyInputEventHandler;
 import init.ModBlocks;
 import init.ModItems;
 import init.Recipes;
@@ -43,17 +44,22 @@ public class EducationMode {
 	    
 	    ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 	    FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-	    LogHelper.info("Pre initialization Complete!");
+	    
+	    proxy.registerKeyBindings();
 	    
 	    ModItems.init();
 	    
 	    ModBlocks.init();
+	    
+	    LogHelper.info("Pre initialization Complete!");
 	  }
 	  
 	  @EventHandler
 	  public void init(FMLInitializationEvent event){
 		  Recipes.init();
 		  LogHelper.info("Initialization Complete!");
+		  
+		  FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
 	  }
 	  
 	  @EventHandler
